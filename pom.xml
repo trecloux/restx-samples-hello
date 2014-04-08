@@ -19,6 +19,17 @@
     <dependencies>
         <dependency>
             <groupId>io.restx</groupId>
+            <artifactId>restx-core-java8</artifactId>
+            <version>${restx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.restx</groupId>
+            <artifactId>restx-specs-tests-java8</artifactId>
+            <version>${restx.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.restx</groupId>
             <artifactId>restx-core</artifactId>
             <version>${restx.version}</version>
         </dependency>
